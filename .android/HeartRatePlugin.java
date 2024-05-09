@@ -20,7 +20,7 @@ public class HeartRatePlugin implements FlutterPlugin, MethodCallHandler {
     private Context context;
     private SensorManager sensorManager;
     private Sensor heartRateSensor;
-    private EventChannel.EventSink eventSink; 
+    private EventChannel.EventSink eventSink;
 
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
